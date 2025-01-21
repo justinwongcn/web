@@ -1,0 +1,13 @@
+[package]
+name = "web"  # 替换为你的项目名称
+version = "0.1.0"           # 项目版本号
+edition = "2021"            # 使用的 Rust 版本（2018 或 2021）
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["json", "rustls-tls"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = "0.4"
+futures = "0.3"
+serde_yaml = "0.9.34"

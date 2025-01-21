@@ -1,0 +1,14 @@
+# local
+/target
+config.yaml
+
+# VS Code
+.vscode
+.vscode/settings.json
+.vscode/extensions.json
+
+# IDE
+.idea
+
+# Log
+logs

@@ -1,0 +1,12 @@
+# 账户配置
+accounts:
+  # 活跃账户
+  - email: "xxx@.com"
+    cookie: ""
+
+# 重试配置
+max_retries: 3
+retry_delay: 5
+
+# 日志配置
+log_file: "logs/checkin.log"
